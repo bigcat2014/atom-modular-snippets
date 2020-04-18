@@ -73,7 +73,11 @@ function consumeSnippets({load} => {
 
 Install
 -------
-`apm install modular-snippets` or search “snippets” under packages within Atom.
+1. Windows only! If on another OS, use the original package [here](https://github.com/danielbayley/atom-modular-snippets)
+2. Make sure you have GIT installed
+3. ATOM_HOME environment variable defined as the location of your .atom folder
+    - If default atom install, run `set ATOM_HOME=%USERPROFILE%\.atom` from cmd
+4. Install package from github: `apm install bigcat2014/atom-modular-snippets`
 
 License
 -------
